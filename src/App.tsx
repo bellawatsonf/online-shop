@@ -1,8 +1,9 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import image1 from "./assets/1.jpg";
+
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,15 +36,7 @@ function App() {
     //   </p>
     // </>
     <>
-      <div className="w-full h-[50px] bg-[black]">
-        <div className="flex flx-row text-[white] justify-center justify-items-center pt-[10px]">
-          <p className="pr-[30px]">Home</p>
-          <p className="pr-[30px]">Typography</p>
-          <p className="pr-[30px]">Contact</p>
-          <p className="pr-[30px]">My Account</p>
-        </div>
-      </div>
-      <div className="w-full bg-[#D3D3D3] pb-[40px]">
+      {/* <div className="w-full bg-[#D3D3D3] pb-[40px]">
         <div className="container bg-[white] h-max-[200px] m-auto pt-[20px]">
           <p className="text-[38px] font-bold pb-[30px]">Seller</p>
           <div className="w-full pb-[15px] border-t-solid border-t-[1px] border-t-[#D3D3D3]">
@@ -614,7 +607,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
